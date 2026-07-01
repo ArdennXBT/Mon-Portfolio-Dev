@@ -29,7 +29,7 @@ function Projets() {
     <div className="projets-page">
       <h1 className="projets-title">Mes Projets</h1>
       <p className="projets-subtitle">
-        Une sélection de mes réalisations récentes.
+        Une sélection de mes réalisations récentes. A venir...
       </p>
 
       <div className="projets-grid">

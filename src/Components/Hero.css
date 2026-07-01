@@ -134,6 +134,8 @@
   .hero-top {
     flex-direction: column;
     text-align: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
   }
 
   .hero-actions {
