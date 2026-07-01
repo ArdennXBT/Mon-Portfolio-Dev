@@ -1,0 +1,27 @@
+
+
+.footer {
+  max-width: 1100px;
+  margin: 3rem auto 2rem;
+  padding: 1.5rem;
+  text-align: center;
+  border-top: 1px solid var(--color-border);
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+}
+
+.footer-links {
+  margin-top: 0.8rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.footer-links a {
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}

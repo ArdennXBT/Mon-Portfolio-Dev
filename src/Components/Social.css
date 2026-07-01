@@ -1,0 +1,55 @@
+
+
+.social {
+  max-width: 900px;
+  margin: 0 auto 5rem;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.social-title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--color-text-primary);
+  margin-bottom: 0.75rem;
+}
+
+.social-subtitle {
+  color: var(--color-text-secondary);
+  font-size: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.social-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.social-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 1.5rem 2rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+  min-width: 130px;
+}
+
+.social-card:hover {
+  border-color: var(--color-accent);
+  transform: translateY(-4px);
+}
+
+.social-icone {
+  font-size: 2rem;
+}
+
+.social-nom {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}

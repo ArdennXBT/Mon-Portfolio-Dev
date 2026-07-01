@@ -1,0 +1,137 @@
+
+
+.competences-page {
+  max-width: 1100px;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+}
+
+.competences-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--color-text-primary);
+  text-align: center;
+}
+
+.competences-subtitle {
+  text-align: center;
+  color: var(--color-text-secondary);
+  font-size: 1.05rem;
+  margin-top: 0.75rem;
+  margin-bottom: 3rem;
+}
+
+/* GRILLE 2 COLONNES */
+.competences-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+/* BLOC */
+.competence-bloc {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  padding: 2rem;
+}
+
+.competence-bloc-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.competence-numero {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--color-accent-light);
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.competence-bloc-titre {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: 0.3rem;
+}
+
+.competence-bloc-desc {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+}
+
+/* CATEGORIE */
+.competence-categorie {
+  margin-bottom: 1.5rem;
+}
+
+.competence-categorie-nom {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+/* SKILL */
+.competence-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.skill-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skill-nom {
+  font-size: 0.95rem;
+  color: var(--color-text-primary);
+  font-weight: 500;
+}
+
+.skill-niveau {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  background-color: var(--color-accent-light);
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--radius-pill);
+}
+
+.skill-barre-bg {
+  width: 100%;
+  height: 6px;
+  background-color: #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.skill-barre-fill {
+  height: 100%;
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  border-radius: 10px;
+  transition: width 1s ease;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .competences-grid {
+    grid-template-columns: 1fr;
+  }
+}
