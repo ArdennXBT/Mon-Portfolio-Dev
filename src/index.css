@@ -11,3 +11,12 @@
   --shadow-soft: 0 4px 20px rgba(37, 99, 235, 0.12);
   --font-main: 'Segoe UI', system-ui, -apple-system, sans-serif;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
