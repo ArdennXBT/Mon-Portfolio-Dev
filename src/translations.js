@@ -161,7 +161,7 @@ export const translations = {
       badge: "I turn ideas into real projects",
       titre: "Hello, I'm",
       metier: "Web & Mobile Developer",
-      bio: "Passionate developer, I turn ideas into modern web and mobile experiences. Clean design, solid code, real results — that's how I build solutions that truly matter.",
+      bio: "Passionate developer, I turn ideas into modern web and mobile experiences. Clean design, solid code, real results. That's how I build solutions that truly matter.",
       btnProjets: "View my projects",
       btnContact: "Contact me",
     },
