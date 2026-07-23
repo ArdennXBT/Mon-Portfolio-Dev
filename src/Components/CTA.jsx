@@ -1,9 +1,10 @@
-
-
 import { Link } from 'react-router-dom'
+import { useLanguage } from '../LanguageContext'
 import './CTA.css'
 
 function CTA() {
+  const { t } = useLanguage()
+
   return (
     <div className="cta">
       <Link
@@ -12,7 +13,7 @@ function CTA() {
         data-aos="fade-up"
         data-aos-delay="0"
       >
-        Voir mes projets
+        {t.hero.btnProjets}
       </Link>
       <Link
         to="/contact"
@@ -20,7 +21,7 @@ function CTA() {
         data-aos="fade-up"
         data-aos-delay="150"
       >
-        Me contacter
+        {t.hero.btnContact}
       </Link>
     </div>
   )

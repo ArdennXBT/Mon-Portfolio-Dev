@@ -1,3 +1,5 @@
+
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -31,7 +33,7 @@
 }
 
 .navbar-links a {
-  color: #333333;
+  color: var(--color-text-primary);
   text-decoration: none;
   font-size: 0.95rem;
   font-weight: 500;
@@ -39,7 +41,7 @@
 }
 
 .navbar-links a:hover {
-  color: #2563eb;
+  color: var(--color-accent);
 }
 
 /* Bouton hamburger - caché sur desktop */
@@ -76,6 +78,51 @@
 
 .navbar-burger.ouvert span:nth-child(3) {
   transform: translateY(-7px) rotate(-45deg);
+}
+
+/* Bouton mode clair/sombre */
+.theme-toggle {
+  background: var(--color-accent-light);
+  border: none;
+  color: var(--color-accent);
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.theme-toggle:hover {
+  transform: rotate(20deg) scale(1.1);
+  background: var(--color-accent);
+  color: #fff;
+}
+
+/* Bouton changement de langue */
+.lang-toggle {
+  background: var(--color-accent-light);
+  border: none;
+  color: var(--color-accent);
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 0.75rem;
+  font-weight: 700;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.lang-toggle:hover {
+  transform: scale(1.1);
+  background: var(--color-accent);
+  color: #fff;
 }
 
 /* --- MOBILE --- */

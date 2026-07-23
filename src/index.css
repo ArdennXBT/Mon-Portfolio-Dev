@@ -12,6 +12,17 @@
   --font-main: 'Baloo 2', 'Segoe UI', system-ui, -apple-system, sans-serif;
 }
 
+[data-theme="dark"] {
+  --color-bg: #0f1117;
+  --color-text-primary: #f5f5f5;
+  --color-text-secondary: #b0b0b8;
+  --color-accent: #3b82f6;
+  --color-accent-dark: #2563eb;
+  --color-accent-light: #1e293b;
+  --color-border: #2a2d3a;
+  --shadow-soft: 0 4px 20px rgba(59, 130, 246, 0.25);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -20,4 +31,13 @@ html, body {
   overflow-x: hidden;
   max-width: 100%;
   font-family: var(--font-main);
+}
+
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+  font-family: var(--font-main);
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }

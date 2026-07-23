@@ -1,55 +1,18 @@
-
-
+import { useLanguage } from '../LanguageContext'
 import './Competences.css'
 
-const competences = [
-  {
-    numero: "01",
-    titre: "Développement Web",
-    description: "Conception et développement d'applications web modernes et performantes.",
-    categories: [
-      {
-        nom: "FRONTEND",
-        skills: [
-          { nom: "HTML / CSS", niveau: 50 },
-          { nom: "JavaScript", niveau: 50 },
-          { nom: "React", niveau: 65 },
-        ]
-      },
-      {
-        nom: "BACKEND",
-        skills: [
-          { nom: "Node.js", niveau: 50 },
-          { nom: "MongoDB", niveau: 50 },
-        ]
-      }
-    ]
-  },
-  {
-    numero: "02",
-    titre: "Développement Mobile",
-    description: "Création d'applications mobiles fluides et intuitives.",
-    categories: [
-      {
-        nom: "MOBILE",
-        skills: [
-          { nom: "React Native", niveau: 50 },
-        ]
-      }
-    ]
-  }
-]
-
 function Competences() {
+  const { t } = useLanguage()
+
   return (
     <div className="competences-page">
-      <h1 className="competences-title">Mes Compétences</h1>
+      <h1 className="competences-title">{t.competences.titre}</h1>
       <p className="competences-subtitle">
-        Les technologies que je maîtrise et que j'améliore chaque jour.
+        {t.competences.soustitre}
       </p>
 
       <div className="competences-grid">
-        {competences.map((bloc, index) => (
+        {t.competences.blocs.map((bloc, index) => (
           <div className="competence-bloc" key={index}>
             <div className="competence-bloc-header">
               <span className="competence-numero">{bloc.numero}</span>
