@@ -1,9 +1,25 @@
-
-
 .hero {
   max-width: 1100px;
   margin: 3rem auto;
   padding: 0 1.5rem;
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--color-accent-light);
+  color: var(--color-accent-dark);
+  padding: 8px 18px;
+  border-radius: var(--radius-pill);
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  width: fit-content;
+}
+
+.hero-badge-icon {
+  font-size: 1rem;
 }
 
 .hero-top {
@@ -138,6 +154,19 @@
     margin-bottom: 2rem;
   }
 
+  .hero-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--color-accent-light);
+  color: var(--color-accent-dark);
+  padding: 8px 18px;
+  border-radius: var(--radius-pill);
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0 auto 2rem auto;
+  width: fit-content;
+}
   .hero-actions {
     justify-content: center;
   }

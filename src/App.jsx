@@ -1,6 +1,7 @@
-
-
+import { useEffect } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 import Acceuil from './Pages/Acceuil'
@@ -10,6 +11,13 @@ import Contact from './Pages/Contact'
 import './App.css'
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 700,
+      once: true,
+    })
+  }, [])
+
   return (
     <BrowserRouter>
       <Navbar />

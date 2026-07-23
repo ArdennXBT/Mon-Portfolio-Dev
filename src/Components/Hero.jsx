@@ -1,5 +1,3 @@
-
-
 import { Link } from 'react-router-dom'
 import maPhoto from '../assets/photo.jpg'
 import './Hero.css'
@@ -7,6 +5,11 @@ import './Hero.css'
 function Hero() {
   return (
     <section className="hero">
+
+      <div className="hero-badge" data-aos="fade-down">
+        <span className="hero-badge-icon">✨</span>
+        <span>Je transforme les idées en projets concrets</span>
+      </div>
 
       <div className="hero-top">
         <img
@@ -21,12 +24,9 @@ function Hero() {
           </h1>
           <p className="hero-role">Développeur Web & Mobile</p>
           <p className="hero-bio">
-            Passionné par la programmation depuis toujours, je conçois des 
-            expériences digitales modernes, soignées et pensées pour l'utilisateur. 
-            En moins d'un an, j'ai transformé cette passion en projets concrets qui 
-            allient design élégant et performance technique. Mon objectif est simple : 
-            donner vie à vos idées et créer des solutions qui font vraiment la 
-            différence.
+            Développeur passionné, je transforme les idées en expériences web et mobile modernes. 
+            Design soigné, code solide, résultats concrets. C'est ma façon de créer des solutions 
+            qui comptent vraiment.
           </p>
           <div className="hero-actions" data-aos="fade-up" data-aos-delay="400">
             <Link to="/projets" className="btn-primary">Voir mes projets</Link>

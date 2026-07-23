@@ -9,7 +9,7 @@
   --radius-pill: 50px;
   --radius-card: 16px;
   --shadow-soft: 0 4px 20px rgba(37, 99, 235, 0.12);
-  --font-main: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-main: 'Baloo 2', 'Segoe UI', system-ui, -apple-system, sans-serif;
 }
 
 * {
@@ -19,4 +19,5 @@
 html, body {
   overflow-x: hidden;
   max-width: 100%;
+  font-family: var(--font-main);
 }

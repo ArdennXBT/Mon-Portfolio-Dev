@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     question: "Comment se déroule une collaboration ?",
-    reponse: "On commence par un échange pour comprendre votre projet. Je propose une solution, on valide ensemble, je développe et je livre. Je reste disponible même après la livraison — pour moi, c'est le début d'une relation de confiance."
+    reponse: "On commence par un échange pour comprendre votre projet. Je propose une solution, on valide ensemble, je développe et je livre. Je reste disponible même après la livraison. Pour moi, c'est le début d'une relation de confiance."
   }
 ]
 
