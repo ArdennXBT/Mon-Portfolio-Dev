@@ -10,10 +10,8 @@ function Hero() {
     <section className="hero">
 
       <div className="hero-badge" data-aos="fade-down">
-        <span className="hero-badge-icon">✨</span>
-        <span>{t.hero.badge}</span>
-      </div>
-
+  <span>{t.hero.badge}</span>
+</div>
       <div className="hero-top">
         <img
           src={maPhoto}
