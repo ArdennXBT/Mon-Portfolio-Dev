@@ -11,10 +11,15 @@ function Navbar() {
   })
   const { language, toggleLanguage, t } = useLanguage()
 
-  useEffect(() => {
-    document.documentElement.setAttribute('data-theme', theme)
-    localStorage.setItem('theme', theme)
-  }, [theme])
+ useEffect(() => {
+  document.documentElement.setAttribute('data-theme', theme)
+  localStorage.setItem('theme', theme)
+
+  const metaThemeColor = document.querySelector('meta[name="theme-color"]')
+  if (metaThemeColor) {
+    metaThemeColor.setAttribute('content', theme === 'light' ? '#4f6bff' : '#1a1d29')
+  }
+}, [theme])
 
   const toggleTheme = () => {
     setTheme(theme === 'light' ? 'dark' : 'light')
