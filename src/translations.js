@@ -12,7 +12,7 @@ export const translations = {
       badge: "Je transforme les idées en projets concrets",
       titre: "Bonjour, je suis",
       metier: "Développeur Web & Mobile",
-      bio: "Développeur passionné, je transforme les idées en expériences web et mobile modernes. Design soigné, code solide, résultats concrets — c'est ma façon de créer des solutions qui comptent vraiment.",
+      bio: "Développeur passionné, je transforme les idées en expériences web et mobile modernes. Design soigné, code solide, résultats concrets. C'est ma façon de créer des solutions qui comptent vraiment.",
       btnProjets: "Voir mes projets",
       btnContact: "Me contacter",
     },
