@@ -1,5 +1,3 @@
-
-
 export const translations = {
   fr: {
     nav: {
@@ -17,6 +15,7 @@ export const translations = {
       btnContact: "Me contacter",
     },
     features: {
+      titre: "Ce que j'apporte",
       code: {
         titre: "Code propre",
         desc: "Un code structuré, lisible et maintenable sur le long terme.",
@@ -166,6 +165,7 @@ export const translations = {
       btnContact: "Contact me",
     },
     features: {
+      titre: "What I bring",
       code: {
         titre: "Clean code",
         desc: "Structured, readable code built to last over time.",
