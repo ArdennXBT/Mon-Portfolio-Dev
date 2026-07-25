@@ -1,6 +1,5 @@
 
 
-import { Link } from 'react-router-dom'
 import { useLanguage } from '../LanguageContext'
 import maPhoto from '../assets/photo.jpg'
 import './Hero.css'
@@ -39,10 +38,6 @@ function Hero() {
           <p className="hero-bio">
             {t.hero.bio}
           </p>
-          <div className="hero-actions" data-aos="fade-up" data-aos-delay="400">
-            <Link to="/projets" className="btn-primary">{t.hero.btnProjets}</Link>
-            <Link to="/contact" className="btn-secondary">{t.hero.btnContact}</Link>
-          </div>
         </div>
       </div>
 

@@ -214,3 +214,29 @@ a.contact-info-value:hover {
   font-weight: 600;
   margin-top: 0.5rem;
 }
+
+
+
+.contact-whatsapp-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-top: 1.5rem;
+  padding: 1rem 1.5rem;
+  background-color: #25D366;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: var(--radius-pill);
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.contact-whatsapp-btn svg {
+  font-size: 1.3rem;
+}
+
+.contact-whatsapp-btn:hover {
+  background-color: #1ebe57;
+  transform: translateY(-3px);
+}

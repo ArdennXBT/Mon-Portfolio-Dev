@@ -1,6 +1,8 @@
+
+
 import { useState } from 'react'
 import emailjs from '@emailjs/browser'
-import { FaGithub, FaInstagram, FaTelegram, FaXTwitter, FaLocationDot, FaPhone } from 'react-icons/fa6'
+import { FaLocationDot, FaPhone, FaWhatsapp } from 'react-icons/fa6'
 import { MdEmail, MdAccessTime } from 'react-icons/md'
 import { useLanguage } from '../LanguageContext'
 import './Contact.css'
@@ -55,6 +57,7 @@ function Contact() {
         <div className="contact-left">
           <div className="contact-info-box">
             <h3>{t.contact.infosTitre}</h3>
+
             <div className="contact-info-item">
               <div className="contact-info-icon"><MdEmail /></div>
               <div>
@@ -62,6 +65,7 @@ function Contact() {
                 <a href="mailto:0xardenn@gmail.com" className="contact-info-value">0xardenn@gmail.com</a>
               </div>
             </div>
+
             <div className="contact-info-item">
               <div className="contact-info-icon"><FaLocationDot /></div>
               <div>
@@ -69,6 +73,7 @@ function Contact() {
                 <p className="contact-info-value">{t.contact.ville}</p>
               </div>
             </div>
+
             <div className="contact-info-item">
               <div className="contact-info-icon"><FaPhone /></div>
               <div>
@@ -76,6 +81,7 @@ function Contact() {
                 <a href="tel:+22901584018 94" className="contact-info-value">+229 01 58 40 18 94</a>
               </div>
             </div>
+
             <div className="contact-info-item">
               <div className="contact-info-icon"><MdAccessTime /></div>
               <div>
@@ -85,16 +91,15 @@ function Contact() {
             </div>
           </div>
 
-          <div className="contact-social-box">
-            <h3>{t.contact.reseauxTitre}</h3>
-            <div className="contact-social-icons">
-              <a href="https://github.com/ardennxbt" target="_blank" rel="noopener noreferrer" className="social-icon"><FaGithub /></a>
-              <a href="https://instagram.com/ardennxbt" target="_blank" rel="noopener noreferrer" className="social-icon"><FaInstagram /></a>
-              <a href="https://twitter.com/ardennxbt" target="_blank" rel="noopener noreferrer" className="social-icon"><FaXTwitter /></a>
-              <a href="https://t.me/ardennxbt" target="_blank" rel="noopener noreferrer" className="social-icon"><FaTelegram /></a>
-              <a href="https://comeup.com/ardenn" target="_blank" rel="noopener noreferrer" className="social-icon">CU</a>
-            </div>
-          </div>
+          
+           <a href="https://wa.me/2290158401894?text=Bonjour Ardenn, j'aimerais discuter d'un projet avec vous."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-whatsapp-btn"
+          >
+            <FaWhatsapp />
+            Discutons de votre projet sur WhatsApp
+          </a>
         </div>
 
         <div className="contact-right">

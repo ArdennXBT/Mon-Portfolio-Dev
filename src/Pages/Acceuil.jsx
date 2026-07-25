@@ -11,10 +11,10 @@ function Acceuil() {
   return (
     <div>
       <Hero />
+      <CTA />
       <Features />
       <Services />
       <TechStack />
-      
       <Faq />
       <CTA />
     </div>
