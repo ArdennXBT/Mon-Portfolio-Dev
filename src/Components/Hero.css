@@ -107,12 +107,68 @@
   background-color: var(--color-accent-light);
 }
 
+.hero-photo-wrap {
+  position: relative;
+  width: 160px;
+  flex-shrink: 0;
+}
+
+.tech-badge {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: var(--color-bg);
+  box-shadow: var(--shadow-soft);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  animation: float 3s ease-in-out infinite;
+}
+
+.tech-badge-1 { top: -10px; left: 10px; color: #e34f26; animation-delay: 0s; }
+.tech-badge-2 { top: 10px; right: -20px; color: #61dafb; animation-delay: 0.5s; }
+.tech-badge-3 { top: 55%; left: -25px; color: #1572b6; animation-delay: 1s; }
+.tech-badge-4 { bottom: 20px; right: -25px; color: #f0db4f; animation-delay: 1.5s; }
+.tech-badge-5 { bottom: -15px; left: 30px; color: #3c873a; animation-delay: 2s; }
+
+.hero-tag {
+  position: absolute;
+  padding: 8px 18px;
+  border-radius: var(--radius-pill);
+  font-weight: 700;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  box-shadow: var(--shadow-soft);
+}
+
+.hero-tag-pro {
+  bottom: -25px;
+  left: -40px;
+  background: linear-gradient(135deg, var(--color-accent), var(--color-accent-dark));
+  color: #fff;
+}
+
+.hero-tag-creatif {
+  top: 40%;
+  right: -50px;
+  background-color: var(--color-text-primary);
+  color: #fff;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
 @media (max-width: 600px) {
   .hero-top {
     flex-direction: column;
     text-align: center;
     gap: 1rem;
     margin-bottom: 2rem;
+    align-items: center;
   }
 
   .hero-badge {
@@ -135,5 +191,36 @@
 
   .hero-title {
     font-size: 1.8rem;
+  }
+
+  .hero-photo-wrap {
+    margin: 0 auto;
+  }
+
+  .tech-badge {
+    width: 32px;
+    height: 32px;
+    font-size: 0.9rem;
+  }
+
+  .tech-badge-1 { top: -8px; left: 0px; }
+  .tech-badge-2 { top: 5px; right: -10px; }
+  .tech-badge-3 { top: 60%; left: -15px; }
+  .tech-badge-4 { bottom: 15px; right: -15px; }
+  .tech-badge-5 { bottom: -10px; left: 20px; }
+
+  .hero-tag {
+    font-size: 0.7rem;
+    padding: 6px 12px;
+  }
+
+  .hero-tag-pro {
+    bottom: -15px;
+    left: -10px;
+  }
+
+  .hero-tag-creatif {
+    top: 45%;
+    right: -20px;
   }
 }

@@ -1,9 +1,8 @@
 .faq {
   max-width: 800px;
-  margin: 4rem auto 5rem;
+  margin: 2rem auto 3rem;   
   padding: 0 1.5rem;
 }
-
 .faq-title {
   text-align: center;
   font-size: 2rem;

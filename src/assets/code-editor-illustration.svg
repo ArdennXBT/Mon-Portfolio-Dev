@@ -1,0 +1,96 @@
+<svg width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg" font-family="'Fira Code', 'Consolas', monospace">
+  <defs>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f6bff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#4f6bff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="softshadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <!-- Ambient glow -->
+  <circle cx="500" cy="80" r="180" fill="url(#glow)"/>
+  <circle cx="80" cy="420" r="160" fill="url(#glow)"/>
+
+  <!-- Editor window -->
+  <g filter="url(#softshadow)">
+    <rect x="30" y="30" width="580" height="420" rx="14" fill="#0d1117"/>
+
+    <!-- Title bar -->
+    <rect x="30" y="30" width="580" height="42" rx="14" fill="#161b22"/>
+    <rect x="30" y="58" width="580" height="14" fill="#161b22"/>
+    <circle cx="56" cy="51" r="6" fill="#ff5f57"/>
+    <circle cx="76" cy="51" r="6" fill="#febc2e"/>
+    <circle cx="96" cy="51" r="6" fill="#28c840"/>
+    <text x="320" y="56" text-anchor="middle" fill="#8b949e" font-size="13">portfolio.jsx</text>
+  </g>
+
+  <!-- Line numbers -->
+  <g fill="#484f58" font-size="14">
+    <text x="52" y="100">1</text>
+    <text x="52" y="124">2</text>
+    <text x="52" y="148">3</text>
+    <text x="52" y="172">4</text>
+    <text x="52" y="196">5</text>
+    <text x="52" y="220">6</text>
+    <text x="52" y="244">7</text>
+    <text x="52" y="268">8</text>
+    <text x="52" y="292">9</text>
+    <text x="46" y="316">10</text>
+    <text x="46" y="340">11</text>
+    <text x="46" y="364">12</text>
+    <text x="46" y="388">13</text>
+    <text x="46" y="412">14</text>
+  </g>
+
+  <!-- Code lines with syntax highlighting -->
+  <g font-size="15">
+    <!-- import { useState } from 'react' -->
+    <text x="86" y="100"><tspan fill="#ff7b72">import</tspan><tspan fill="#c9d1d9"> { </tspan><tspan fill="#79c0ff">useState</tspan><tspan fill="#c9d1d9"> } </tspan><tspan fill="#ff7b72">from</tspan><tspan fill="#a5d6ff"> 'react'</tspan></text>
+
+    <!-- blank -->
+
+    <!-- function Portfolio() { -->
+    <text x="86" y="148"><tspan fill="#ff7b72">function</tspan><tspan fill="#d2a8ff"> Portfolio</tspan><tspan fill="#c9d1d9">() {</tspan></text>
+
+    <!-- const [ready, setReady] = useState(true) -->
+    <text x="106" y="172"><tspan fill="#ff7b72">const</tspan><tspan fill="#c9d1d9"> [ready, setReady] = </tspan><tspan fill="#d2a8ff">useState</tspan><tspan fill="#c9d1d9">(</tspan><tspan fill="#79c0ff">true</tspan><tspan fill="#c9d1d9">)</tspan></text>
+
+    <!-- blank -->
+
+    <!-- return ( -->
+    <text x="106" y="220"><tspan fill="#ff7b72">return</tspan><tspan fill="#c9d1d9"> (</tspan></text>
+
+    <!-- <Hero title="Ardenn KPEHOUN" /> -->
+    <text x="126" y="244"><tspan fill="#c9d1d9">&lt;</tspan><tspan fill="#7ee787">Hero</tspan><tspan fill="#c9d1d9"> </tspan><tspan fill="#79c0ff">title</tspan><tspan fill="#c9d1d9">=</tspan><tspan fill="#a5d6ff">"Ardenn KPEHOUN"</tspan><tspan fill="#c9d1d9"> /&gt;</tspan></text>
+
+    <!-- <Projects skills={['React','Node']} /> -->
+    <text x="126" y="268"><tspan fill="#c9d1d9">&lt;</tspan><tspan fill="#7ee787">Projects</tspan><tspan fill="#c9d1d9"> </tspan><tspan fill="#79c0ff">stack</tspan><tspan fill="#c9d1d9">={[</tspan><tspan fill="#a5d6ff">'React'</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">'Node'</tspan><tspan fill="#c9d1d9">]} /&gt;</tspan></text>
+
+    <!-- {ready && <Contact />} -->
+    <text x="126" y="292"><tspan fill="#c9d1d9">{ready &amp;&amp; &lt;</tspan><tspan fill="#7ee787">Contact</tspan><tspan fill="#c9d1d9"> /&gt;}</tspan></text>
+
+    <!-- ) -->
+    <text x="106" y="316"><tspan fill="#c9d1d9">)</tspan></text>
+
+    <!-- } -->
+    <text x="86" y="340"><tspan fill="#c9d1d9">}</tspan></text>
+
+    <!-- blank -->
+
+    <!-- export default Portfolio -->
+    <text x="86" y="388"><tspan fill="#ff7b72">export</tspan><tspan fill="#ff7b72"> default</tspan><tspan fill="#d2a8ff"> Portfolio</tspan></text>
+  </g>
+
+  <!-- Blinking cursor -->
+  <rect x="256" y="376" width="9" height="18" fill="#4f6bff">
+    <animate attributeName="opacity" values="1;1;0;0;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Status bar -->
+  <rect x="30" y="430" width="580" height="20" fill="#161b22" rx="0"/>
+  <rect x="30" y="444" width="580" height="6" fill="#161b22"/>
+  <text x="46" y="444" fill="#8b949e" font-size="11">JSX</text>
+  <text x="560" y="444" fill="#7ee787" font-size="11" text-anchor="end">● built with React</text>
+</svg>

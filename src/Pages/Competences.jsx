@@ -1,5 +1,10 @@
+
+
 import { useLanguage } from '../LanguageContext'
+import { MdWeb, MdDns, MdPhoneAndroid, MdStorage, MdApi, MdBuild } from 'react-icons/md'
 import './Competences.css'
+
+const icones = [MdWeb, MdDns, MdPhoneAndroid, MdStorage, MdApi, MdBuild]
 
 function Competences() {
   const { t } = useLanguage()
@@ -12,39 +17,24 @@ function Competences() {
       </p>
 
       <div className="competences-grid">
-        {t.competences.blocs.map((bloc, index) => (
-          <div className="competence-bloc" key={index}>
-            <div className="competence-bloc-header">
-              <span className="competence-numero">{bloc.numero}</span>
-              <div>
-                <h2 className="competence-bloc-titre">{bloc.titre}</h2>
-                <p className="competence-bloc-desc">{bloc.description}</p>
+        {t.competences.categories.map((categorie, index) => {
+          const Icone = icones[index]
+          return (
+            <div className="competence-card" key={index}>
+              <div className="competence-card-header">
+                <div className="competence-icon">
+                  <Icone />
+                </div>
+                <h2 className="competence-card-titre">{categorie.titre}</h2>
+              </div>
+              <div className="competence-tags">
+                {categorie.skills.map((skill, i) => (
+                  <span className="competence-tag" key={i}>{skill}</span>
+                ))}
               </div>
             </div>
-
-            {bloc.categories.map((categorie, i) => (
-              <div className="competence-categorie" key={i}>
-                <p className="competence-categorie-nom">{categorie.nom}</p>
-                <div className="competence-skills">
-                  {categorie.skills.map((skill, j) => (
-                    <div className="skill-item" key={j}>
-                      <div className="skill-info">
-                        <span className="skill-nom">{skill.nom}</span>
-                        <span className="skill-niveau">{skill.niveau}%</span>
-                      </div>
-                      <div className="skill-barre-bg">
-                        <div
-                          className="skill-barre-fill"
-                          style={{ width: `${skill.niveau}%` }}
-                        ></div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        ))}
+          )
+        })}
       </div>
     </div>
   )

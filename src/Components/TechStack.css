@@ -1,0 +1,81 @@
+
+
+.techstack {
+  max-width: 1100px;
+  margin: 0 auto 3rem;      
+  padding: 2.5rem 1.5rem;   
+  background-color: var(--color-surface);
+  border-radius: var(--radius-card);
+  text-align: center;
+}
+
+.techstack-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--color-text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.techstack-subtitle {
+  color: var(--color-text-secondary);
+  margin-bottom: 2.5rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.techstack-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: 0 auto 2.5rem;
+}
+
+.techstack-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.techstack-icon {
+  width: 60px;
+  height: 60px;
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.techstack-item:hover .techstack-icon {
+  transform: translateY(-4px);
+  border-color: var(--color-accent);
+}
+
+.techstack-nom {
+  font-size: 0.8rem;
+  color: var(--color-text-secondary);
+  font-weight: 500;
+}
+
+.techstack-cta {
+  margin-top: 1rem;
+}
+
+@media (max-width: 600px) {
+  .techstack-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .techstack-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 1.4rem;
+  }
+}

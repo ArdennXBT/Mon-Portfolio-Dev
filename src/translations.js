@@ -7,6 +7,8 @@ export const translations = {
       contact: 'Contact',
     },
     hero: {
+      tagPro: "Professionnel",
+      tagCreatif: "Créatif",
       badge: "Je transforme les idées en projets concrets",
       titre: "Bonjour, je suis",
       metier: "Développeur Web & Mobile",
@@ -29,6 +31,21 @@ export const translations = {
         desc: "Des sites rapides et parfaitement adaptés à tous les écrans.",
       },
     },
+
+    techstack: {
+      titre: "Technologies & Outils",
+      soustitre:"Un ensemble d'outils que je maîtrise et que j'enrichis constamment, projet après projet.",
+      btnCompetences: "Voir mes compétences",
+    },
+
+    services: {
+      badge: "Mes services",
+      titre: "Je transforme vos idées en produits numériques qui marchent",
+      description: "Que vous ayez besoin d'une landing page percutante, d'une application web sur mesure, d'un SaaS complet ou d'un simple site vitrine pour exister en ligne, je conçois des solutions pensées pour votre activité, de la première idée jusqu'à la mise en ligne.",
+      tags: ["Landing Page", "Application Web", "SaaS", "Site Vitrine", "Mini-site", "Site e-commerce"],
+      btn: "Voir mes réalisations",
+    },
+
     faq: {
       titre: "Questions fréquentes",
       items: [
@@ -57,47 +74,38 @@ export const translations = {
     footer: {
       droits: "Tous droits réservés.",
     },
-    competences: {
+    
+competences: {
       titre: "Mes Compétences",
       soustitre: "Les technologies que je maîtrise et que j'améliore chaque jour.",
-      blocs: [
+      categories: [
         {
-          numero: "01",
-          titre: "Développement Web",
-          description: "Conception et développement d'applications web modernes et performantes.",
-          categories: [
-            {
-              nom: "FRONTEND",
-              skills: [
-                { nom: "HTML / CSS", niveau: 50 },
-                { nom: "JavaScript", niveau: 50 },
-                { nom: "React", niveau: 65 },
-              ]
-            },
-            {
-              nom: "BACKEND",
-              skills: [
-                { nom: "Node.js", niveau: 50 },
-                { nom: "MongoDB", niveau: 50 },
-              ]
-            }
-          ]
+          titre: "Développement Front-end",
+          skills: ["HTML5", "CSS3", "JavaScript", "React.js", "Tailwind CSS", "Bootstrap", "Responsive Design / UI adaptative"]
         },
         {
-          numero: "02",
+          titre: "Développement Back-end",
+          skills: ["Node.js", "Express.js", "PHP", "Laravel", "Symfony", "Python", "Création et gestion d'API REST"]
+        },
+        {
           titre: "Développement Mobile",
-          description: "Création d'applications mobiles fluides et intuitives.",
-          categories: [
-            {
-              nom: "MOBILE",
-              skills: [
-                { nom: "React Native", niveau: 50 },
-              ]
-            }
-          ]
+          skills: ["React Native", "Flutter", "Dart", "Applications multiplateformes"]
+        },
+        {
+          titre: "Bases de données",
+          skills: ["MySQL", "MongoDB", "PostgreSQL", "Modélisation & conception de bases de données"]
+        },
+        {
+          titre: "APIs & Architecture",
+          skills: ["REST API", "Architecture client-serveur", "Authentification JWT"]
+        },
+        {
+          titre: "Outils & Déploiement",
+          skills: ["Git", "GitHub", "Vite", "Vercel", "Render", "Postman", "Méthodes Agiles"]
         }
       ],
     },
+
     projets: {
       titre: "Mes Projets",
       soustitre: "Une sélection de mes réalisations récentes. A venir...",
@@ -157,6 +165,8 @@ export const translations = {
       contact: 'Contact',
     },
     hero: {
+      tagPro: "Professional", 
+      tagCreatif: "Creative",
       badge: "I turn ideas into real projects",
       titre: "Hello, I'm",
       metier: "Web & Mobile Developer",
@@ -179,6 +189,22 @@ export const translations = {
         desc: "Fast sites that adapt perfectly to every screen.",
       },
     },
+
+    techstack: {
+      titre: "Technologies & Tools",
+      soustitre: "A set of tools I've mastered and keep expanding, project after project.",
+      btnCompetences: "See my skills",
+    },
+
+    services: {
+      badge: "My services",
+      titre: "I turn your ideas into digital products that work",
+      description: "Whether you need a high-converting landing page, a custom web application, a full SaaS product, or a simple showcase site to establish your online presence, I design solutions built around your business, from the first idea to launch.",
+      tags: ["Landing Page", "Web Application", "SaaS", "Showcase Site", "Mini-site", "E-commerce Site"],
+      btn: "See my work",
+    },
+    
+
     faq: {
       titre: "Frequently Asked Questions",
       items: [
@@ -207,47 +233,39 @@ export const translations = {
     footer: {
       droits: "All rights reserved.",
     },
-    competences: {
+    
+competences: {
       titre: "My Skills",
       soustitre: "The technologies I master and keep improving every day.",
-      blocs: [
+      categories: [
         {
-          numero: "01",
-          titre: "Web Development",
-          description: "Designing and building modern, high-performance web applications.",
-          categories: [
-            {
-              nom: "FRONTEND",
-              skills: [
-                { nom: "HTML / CSS", niveau: 50 },
-                { nom: "JavaScript", niveau: 50 },
-                { nom: "React", niveau: 65 },
-              ]
-            },
-            {
-              nom: "BACKEND",
-              skills: [
-                { nom: "Node.js", niveau: 50 },
-                { nom: "MongoDB", niveau: 50 },
-              ]
-            }
-          ]
+          titre: "Front-end Development",
+          skills: ["HTML5", "CSS3", "JavaScript", "React.js", "Tailwind CSS", "Bootstrap", "Responsive Design / Adaptive UI"]
         },
         {
-          numero: "02",
+          titre: "Back-end Development",
+          skills: ["Node.js", "Express.js", "PHP", "Laravel", "Symfony", "Python", "Building and managing REST APIs"]
+        },
+        {
           titre: "Mobile Development",
-          description: "Building smooth and intuitive mobile applications.",
-          categories: [
-            {
-              nom: "MOBILE",
-              skills: [
-                { nom: "React Native", niveau: 50 },
-              ]
-            }
-          ]
+          skills: ["React Native", "Flutter", "Dart", "Cross-platform apps"]
+        },
+        {
+          titre: "Databases",
+          skills: ["MySQL", "MongoDB", "PostgreSQL", "Database design & modeling"]
+        },
+        {
+          titre: "APIs & Architecture",
+          skills: ["REST API", "Client-server architecture", "JWT Authentication"]
+        },
+        {
+          titre: "Tools & Deployment",
+          skills: ["Git", "GitHub", "Vite", "Vercel", "Render", "Postman", "Agile Methods"]
         }
       ],
     },
+
+
     projets: {
       titre: "My Projects",
       soustitre: "A selection of my recent work. Coming soon...",
