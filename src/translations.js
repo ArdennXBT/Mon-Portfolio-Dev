@@ -112,12 +112,13 @@ competences: {
       voirProjet: "Voir le projet →",
       liste: [
         {
-          id: 1,
-          titre: "Nom du projet 1",
-          description: "Courte description du projet et de son objectif.",
-          technologies: ["React", "Node.js", "MongoDB"],
-          lien: "https://github.com/tonpseudo/projet1"
-        },
+            id: 1,
+            titre: "Monkarnet",
+            description: "Conçu pour les commerçants qui géraient encore leurs ventes sur un cahier. Monkarnet automatise le suivi des commandes, des livraisons et du chiffre d'affaires.",
+            technologies: ["React", "Node.js", "Express", "MongoDB", "Cloudinary"],
+            lien: "https://monkarnet.vercel.app",
+            image: "/projets/monkarnet.png",
+          },
         {
           id: 2,
           titre: "Nom du projet 2",
@@ -272,12 +273,13 @@ competences: {
       voirProjet: "View project →",
       liste: [
         {
-          id: 1,
-          titre: "Project name 1",
-          description: "Short description of the project and its goal.",
-          technologies: ["React", "Node.js", "MongoDB"],
-          lien: "https://github.com/tonpseudo/projet1"
-        },
+            id: 1,
+            titre: "Monkarnet",
+            description: "Built for shop owners who were still tracking sales in a notebook. Monkarnet automates order tracking, deliveries, and revenue.",
+            technologies: ["React", "Node.js", "Express", "MongoDB", "Cloudinary"],
+            lien: "https://monkarnet.vercel.app",
+            image: "/projets/monkarnet.png",
+          },
         {
           id: 2,
           titre: "Project name 2",

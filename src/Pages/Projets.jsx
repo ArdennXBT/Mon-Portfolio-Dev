@@ -1,5 +1,4 @@
 
-
 import { useLanguage } from '../LanguageContext'
 import './Projets.css'
 
@@ -22,6 +21,11 @@ function Projets() {
             data-aos-delay={index * 100}
           >
             <h3>{projet.titre}</h3>
+            {projet.image && (
+              <div className="projet-image-wrapper">
+                <img src={projet.image} alt={projet.titre} className="projet-image" />
+              </div>
+            )}
             <p>{projet.description}</p>
             <div className="projet-tags">
               {projet.technologies.map((tech, i) => (
