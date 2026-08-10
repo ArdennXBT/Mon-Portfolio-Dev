@@ -112,13 +112,13 @@ competences: {
       voirProjet: "Voir le projet →",
       liste: [
         {
-            id: 1,
-            titre: "Monkarnet",
-            description: "Conçu pour les commerçants qui géraient encore leurs ventes sur un cahier. Monkarnet automatise le suivi des commandes, des livraisons et du chiffre d'affaires.",
-            technologies: ["React", "Node.js", "Express", "MongoDB", "Cloudinary"],
-            lien: "https://monkarnet.vercel.app",
-            image: "/projets/monkarnet.png",
-          },
+          id: 1,
+          titre: "Orbizo",
+          description: "Conçu pour les commerçants qui géraient encore leurs ventes sur un cahier. Orbizo automatise le suivi des ventes, des commandes, des produits, des clients et des marges dans un tableau de bord en temps réel.",
+          technologies: ["React", "Node.js", "Express", "MongoDB", "Cloudinary"],
+          lien: "https://orbizo.xyz",
+          image: "/projets/orbizo.png",
+        },
         {
           id: 2,
           titre: "Nom du projet 2",
@@ -273,13 +273,13 @@ competences: {
       voirProjet: "View project →",
       liste: [
         {
-            id: 1,
-            titre: "Monkarnet",
-            description: "Built for shop owners who were still tracking sales in a notebook. Monkarnet automates order tracking, deliveries, and revenue.",
-            technologies: ["React", "Node.js", "Express", "MongoDB", "Cloudinary"],
-            lien: "https://monkarnet.vercel.app",
-            image: "/projets/monkarnet.png",
-          },
+          id: 1,
+          title: "Orbizo",
+          description: "Built for shop owners who were still tracking their sales in a notebook. Orbizo automates sales, order, product, customer, and margin tracking in a real-time dashboard.",
+          technologies: ["React", "Node.js", "Express", "MongoDB", "Cloudinary"],
+          link: "https://orbizo.xyz",
+          image: "/projets/orbizo.png",
+        },
         {
           id: 2,
           titre: "Project name 2",
