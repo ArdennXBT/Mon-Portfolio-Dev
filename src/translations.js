@@ -121,10 +121,11 @@ competences: {
         },
         {
           id: 2,
-          titre: "Nom du projet 2",
-          description: "Courte description du projet et de son objectif.",
-          technologies: ["JavaScript", "CSS", "API"],
-          lien: "https://github.com/tonpseudo/projet2"
+          titre: "Velvet Nails",
+          image: "/projets/velvetnails.png",
+          description: "Site vitrine développé pour une prothésiste ongulaire, permettant à ses clientes de découvrir ses prestations, consulter sa galerie et réserver un créneau en ligne.",
+          technologies: ["React", "Node.js", "Express", "MongoDB"],
+          lien: "https://velvetnails.vercel.app"
         },
         {
           id: 3,
@@ -282,10 +283,11 @@ competences: {
         },
         {
           id: 2,
-          titre: "Project name 2",
-          description: "Short description of the project and its goal.",
-          technologies: ["JavaScript", "CSS", "API"],
-          lien: "https://github.com/tonpseudo/projet2"
+          title: "Velvet Nails",
+          image: "/projets/velvetnails.png",
+          description: "Showcase website built for a nail technician, letting her clients discover her services, browse her gallery, and book an appointment online.",
+          technologies: ["React", "Node.js", "Express", "MongoDB"],
+          link: "https://velvetnails.vercel.app"
         },
         {
           id: 3,
