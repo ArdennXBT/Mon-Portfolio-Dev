@@ -128,11 +128,13 @@ competences: {
           lien: "https://velvetnails.vercel.app"
         },
         {
-          id: 3,
-          titre: "Nom du projet 3",
-          description: "Courte description du projet et de son objectif.",
-          technologies: ["React", "Tailwind"],
-          lien: "https://github.com/tonpseudo/projet3"
+          // Français
+        id: 3,
+        titre: "LoomScan",
+        image: "/projets/loomscan.png",
+        description: "Scanner de memecoins pour Robinhood Chain : chaque jeton est analysé pour détecter les risques de rug pull, avec des données onchain en temps réel et des graphiques clairs.",
+        technologies: ["React", "Vite", "Node.js", "Express", "MongoDB", "ethers.js"],
+        lien: "https://loomscan.vercel.app"
         }
       ],
     },
@@ -290,11 +292,13 @@ competences: {
           link: "https://velvetnails.vercel.app"
         },
         {
+          // English
           id: 3,
-          titre: "Project name 3",
-          description: "Short description of the project and its goal.",
-          technologies: ["React", "Tailwind"],
-          lien: "https://github.com/tonpseudo/projet3"
+          titre: "LoomScan",
+          image: "/projets/loomscan.png",
+          description: "Memecoin scanner for Robinhood Chain: every token is analyzed for rug-pull risks, with real-time onchain data and clear charts.",
+          technologies: ["React", "Vite", "Node.js", "Express", "MongoDB", "ethers.js"],
+          lien: "https://loomscan.vercel.app"
         }
       ],
     },
