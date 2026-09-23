@@ -139,7 +139,7 @@ competences: {
 
         {
           id: 4,
-          titre: "Deal Room — Projet de classe EIG",
+          titre: "Deal Room - Projet de classe EIG",
           image: "/projets/dealroom.png",
           description: "Plateforme de collaboration connectant créateurs de contenu et marques. Les marques peuvent découvrir, filtrer et collaborer avec des créateurs selon leur niche et leur audience, avec un système d'essai gratuit avant de s'engager.",
           technologies: ["React", "Node.js"],
@@ -149,11 +149,20 @@ competences: {
 
         {
           id: 5,
-          titre: "Simulateur — Projet de classe EIG",
+          titre: "Simulateur - Projet de classe EIG",
           image: "/projets/simulateur.png",
           description: "Application permettant de comparer le coût réel de possession de plusieurs véhicules sur la durée, en tenant compte du prix d'achat, du kilométrage annuel et du type de motorisation.",
           technologies: ["React", "Node.js", "API REST"],
           lien: "https://ferrari-sto.vercel.app"
+        },
+
+        {
+          id: 6,
+          titre: "Hôtel Seguro - Projet de classe EIG",
+          image: "/projets/hotel-seguro.png",
+          description: "Site vitrine et système de réservation pour un hôtel, avec gestion des chambres, des disponibilités et des réservations via une base de données MySQL.",
+          technologies: ["PHP", "MySQL", "JavaScript"],
+          lien: "https://hotel-seguro.infy.click"
         }
 
       ],
@@ -291,57 +300,62 @@ competences: {
 
 
     projets: {
-      titre: "My Projects",
-      soustitre: "A selection of my recent work.",
-      voirProjet: "View project →",
-      liste: [
-        {
-          id: 1,
-          title: "Orbizo",
-          description: "Built for shop owners who were still tracking their sales in a notebook. Orbizo automates sales, order, product, customer, and margin tracking in a real-time dashboard.",
-          technologies: ["React", "Node.js", "Express", "MongoDB", "Cloudinary"],
-          link: "https://orbizo.xyz",
-          image: "/projets/orbizo.png",
-        },
-        {
-          id: 2,
-          title: "Velvet Nails",
-          image: "/projets/velvetnails.png",
-          description: "Showcase website built for a nail technician, letting her clients discover her services, browse her gallery, and book an appointment online.",
-          technologies: ["React", "Node.js", "Express", "MongoDB"],
-          link: "https://velvetnails.vercel.app"
-        },
-        {
-          // English
-          id: 3,
-          titre: "LoomScan",
-          image: "/projets/loomscan.png",
-          description: "Memecoin scanner for Robinhood Chain: every token is analyzed for rug-pull risks, with real-time onchain data and clear charts.",
-          technologies: ["React", "Vite", "Node.js", "Express", "MongoDB", "ethers.js"],
-          lien: "https://loomscan.vercel.app"
-        },
-
-        {
-          id: 4,
-          titre: "Deal Room — EIG Class Project",
-          image: "/projets/dealroom.png",
-          description: "Collaboration platform connecting content creators and brands. Brands can discover, filter, and collaborate with creators based on their niche and audience, with a free trial system before engaging.",
-          technologies: ["React", "Node.js"],
-          lien: "https://creator-ruby.vercel.app"
-        },
-
-
-        {
-          id: 5,
-          titre: "Simulator — EIG Class Project",
-          image: "/projets/simulateur.png",
-          description: "Application that lets users compare the real cost of owning several vehicles over time, factoring in purchase price, annual mileage, and fuel type.",
-          technologies: ["React", "Node.js", "API REST"],
-          lien: "https://ferrari-sto.vercel.app"
-        }
-
-      ],
+  titre: "My Projects",
+  soustitre: "A selection of my recent work.",
+  voirProjet: "View project →",
+  liste: [
+    {
+      id: 1,
+      titre: "Orbizo",
+      description: "Built for shop owners who were still tracking their sales in a notebook. Orbizo automates sales, order, product, customer, and margin tracking in a real-time dashboard.",
+      technologies: ["React", "Node.js", "Express", "MongoDB", "Cloudinary"],
+      lien: "https://orbizo.xyz",
+      image: "/projets/orbizo.png",
     },
+    {
+      id: 2,
+      titre: "Velvet Nails",
+      image: "/projets/velvetnails.png",
+      description: "Showcase website built for a nail technician, letting her clients discover her services, browse her gallery, and book an appointment online.",
+      technologies: ["React", "Node.js", "Express", "MongoDB"],
+      lien: "https://velvetnails.vercel.app"
+    },
+    {
+      id: 3,
+      titre: "LoomScan",
+      image: "/projets/loomscan.png",
+      description: "Memecoin scanner for Robinhood Chain: every token is analyzed for rug-pull risks, with real-time onchain data and clear charts.",
+      technologies: ["React", "Vite", "Node.js", "Express", "MongoDB", "ethers.js"],
+      lien: "https://loomscan.vercel.app"
+    },
+    {
+      id: 4,
+      titre: "Deal Room - EIG Class Project",
+      image: "/projets/dealroom.png",
+      description: "Collaboration platform connecting content creators and brands. Brands can discover, filter, and collaborate with creators based on their niche and audience, with a free trial system before engaging.",
+      technologies: ["React", "Node.js"],
+      lien: "https://creator-ruby.vercel.app"
+    },
+    {
+      id: 5,
+      titre: "Simulator - EIG Class Project",
+      image: "/projets/simulateur.png",
+      description: "Application that lets users compare the real cost of owning several vehicles over time, factoring in purchase price, annual mileage, and fuel type.",
+      technologies: ["React", "Node.js", "API REST"],
+      lien: "https://ferrari-sto.vercel.app"
+    },
+    {
+      id: 6,
+      titre: "Hotel Seguro - EIG Class Project",
+      image: "/projets/hotel-seguro.png",
+      description: "Showcase website and booking system for a hotel, with room management, availability tracking, and reservations powered by a MySQL database.",
+      technologies: ["PHP", "MySQL", "JavaScript"],
+      lien: "https://hotel-seguro.infy.click"
+    }
+  ],
+},
+
+
     contact: {
       titrePart1: "Let's talk about your",
       titreHighlight: "project",
