@@ -108,7 +108,7 @@ competences: {
 
     projets: {
       titre: "Mes Projets",
-      soustitre: "Une sélection de mes réalisations récentes. A venir...",
+      soustitre: "Une sélection de mes réalisations récentes.",
       voirProjet: "Voir le projet →",
       liste: [
         {
@@ -135,7 +135,27 @@ competences: {
         description: "Scanner de memecoins pour Robinhood Chain : chaque jeton est analysé pour détecter les risques de rug pull, avec des données onchain en temps réel et des graphiques clairs.",
         technologies: ["React", "Vite", "Node.js", "Express", "MongoDB", "ethers.js"],
         lien: "https://loomscan.vercel.app"
+        },
+
+        {
+          id: 4,
+          titre: "Deal Room — Projet de classe EIG",
+          image: "/projets/dealroom.png",
+          description: "Plateforme de collaboration connectant créateurs de contenu et marques. Les marques peuvent découvrir, filtrer et collaborer avec des créateurs selon leur niche et leur audience, avec un système d'essai gratuit avant de s'engager.",
+          technologies: ["React", "Node.js"],
+          lien: "https://creator-ruby.vercel.app"
+        },
+
+
+        {
+          id: 5,
+          titre: "Simulateur — Projet de classe EIG",
+          image: "/projets/simulateur.png",
+          description: "Application permettant de comparer le coût réel de possession de plusieurs véhicules sur la durée, en tenant compte du prix d'achat, du kilométrage annuel et du type de motorisation.",
+          technologies: ["React", "Node.js", "API REST"],
+          lien: "https://ferrari-sto.vercel.app"
         }
+
       ],
     },
     contact: {
@@ -272,7 +292,7 @@ competences: {
 
     projets: {
       titre: "My Projects",
-      soustitre: "A selection of my recent work. Coming soon...",
+      soustitre: "A selection of my recent work.",
       voirProjet: "View project →",
       liste: [
         {
@@ -299,7 +319,27 @@ competences: {
           description: "Memecoin scanner for Robinhood Chain: every token is analyzed for rug-pull risks, with real-time onchain data and clear charts.",
           technologies: ["React", "Vite", "Node.js", "Express", "MongoDB", "ethers.js"],
           lien: "https://loomscan.vercel.app"
+        },
+
+        {
+          id: 4,
+          titre: "Deal Room — EIG Class Project",
+          image: "/projets/dealroom.png",
+          description: "Collaboration platform connecting content creators and brands. Brands can discover, filter, and collaborate with creators based on their niche and audience, with a free trial system before engaging.",
+          technologies: ["React", "Node.js"],
+          lien: "https://creator-ruby.vercel.app"
+        },
+
+
+        {
+          id: 5,
+          titre: "Simulator — EIG Class Project",
+          image: "/projets/simulateur.png",
+          description: "Application that lets users compare the real cost of owning several vehicles over time, factoring in purchase price, annual mileage, and fuel type.",
+          technologies: ["React", "Node.js", "API REST"],
+          lien: "https://ferrari-sto.vercel.app"
         }
+
       ],
     },
     contact: {
